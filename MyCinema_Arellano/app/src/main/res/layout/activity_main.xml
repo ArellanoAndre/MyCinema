@@ -125,11 +125,15 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="51dp"
         android:text="Eyes Wide Shut (en Hispanoamérica, Ojos bien cerrados) es una película de 1999 dirigida por Stanley Kubrick y protagonizada por Tom Cruise y Nicole Kidman."
+        android:textColor="#FFFFFF"
         android:textSize="25sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="7dp"
-        android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteY="529dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/B13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
